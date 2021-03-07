@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <h2>Expense Tracker</h2>
+            <p class="info">YOUR BALANCE</p>
+            <p id="balance">$0</p>
+            <div class="tracker">
+                <div class="income">
+                    <span class="income_text">INCOME</span>
+                    <span id="incomeBalance" class="income_summa_text">$0.00</span>
+                </div>
+                <div class="border"></div>
+                <div class="expense">
+                    <span class="expense_text">EXPENSE</span>
+                    <span id="expenseBalance" class="expense_summa_text">$0.00</span>
+                </div>
+            </div>
+            <div class="history">History</div>
+            <div id="historyExpense">
+                <!-- <div class="expenses_products">
+                    <span class="cancel">X</span>
+                    <span id="products_text">Pistachios</span>
+                    <span id="products_amount">-30</span>
+                </div> -->
+            </div>
+            <div class="transaction">Add new transaction</div>
+            <label class="what_label" for="what">Text</label>
+            <input type="text" name="" id="what" placeholder="Enter text...">
+            <label for="amount">Amount</label>
+            <p class="amount_text">(negative - expense, positive - income)</p>
+            <input type="number" name="" id="amount" placeholder="Enter amount...">
+            <button id="btn">Add Transuction</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
